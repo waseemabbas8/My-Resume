@@ -1,0 +1,80 @@
+.da-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+	list-style: none;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 0;
+}
+.da-thumbs .portfolio-item {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.da-thumbs .portfolio-item a,
+.da-thumbs .portfolio-item a img {
+	display: block;
+	position: relative;
+    transition: all 0.5s ease-in-out;
+}
+.da-thumbs .portfolio-item a {
+	overflow: hidden;
+}
+.da-thumbs .portfolio-item a div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+	position: absolute;
+	background: #ff4c4c;
+	background: rgba(255, 76, 76, 0.8);
+	width: 100%;
+	height: 100%;
+    border: 5px solid #fff;
+}
+.da-thumbs .portfolio-item a div h6, .da-thumbs .portfolio-item span {
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin-bottom: 8px;
+    transition: color 0.3s ease 0s;
+}
+.da-thumbs .portfolio-item a div h6:hover {
+    color: #e3e3e3;
+}
+.da-thumbs .portfolio-item a div span {
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+}
+.da-thumbs .portfolio-item a:hover img {
+    transform: scale(1.3);
+}
+@media only screen and (max-width: 576px) {
+    .da-thumbs .portfolio-item a div h6, .da-thumbs .portfolio-item span {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

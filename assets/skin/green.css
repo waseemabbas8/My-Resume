@@ -1,0 +1,84 @@
+/* ===============*/
+/* Green #72b626
+=================*/
+#header .navbar-light .navbar-nav .show > .nav-link,
+#header .navbar-light .navbar-nav .active > .nav-link,
+#header .navbar-light .navbar-nav .nav-link.show,
+#header .navbar-light .navbar-nav .nav-link.active {
+    border-bottom: 1px solid #72b626;
+    color: #72b626;
+}
+
+.home h2 span,
+.sec-t h2 span,
+.about .project h4,
+.skills .comunicate-skill-items li.list-inline-item .comu-icon i,
+#header .navbar-light .navbar-nav .nav-link:hover,
+#header .navbar-light .navbar-nav .nav-link:focus,
+a:hover {
+    color: #72b626;
+}
+
+.sec-t h2::after,
+.skills .skill-item .progress .progress-bar,
+.skills .skill-item .progress .progress-bar::after,
+ul.list-unstyled li.expe-item:hover h5::before,
+ul.list-unstyled li.edu-item:hover h5::before,
+.btn,
+#header li.nav-item::after,
+#header a.nav-link::before,
+.portfolio ul.filter-btn li.active {
+    background-color: #72b626;
+}
+
+[type='reset']:hover,
+[type='submit']:hover,
+.btn:hover {
+    background-color: #72b626;
+}
+
+.da-thumbs .portfolio-item a div {
+    background: #72b626;
+    background-color: rgba(114, 182, 38, 0.8);
+}
+
+.blog .blog-item .blog-text a,
+.contact ul.list-unstyled li.contact-item .more-link {
+    border-bottom-color: #72b626;
+}
+
+/*btn*/
+.btn-brand {
+    background-color: #72b626;
+    color: #fff;
+    border: 2px solid #72b626;
+}
+
+.btn-brand:hover {
+    background-color: transparent;
+    border: 2px solid #72b626;
+    color: #72b626;
+}
+
+/*btn border*/
+.btn-brand-border {
+    border: 2px solid #72b626;
+    background-color: transparent;
+    color: #72b626;
+}
+
+.btn-brand-border:hover {
+    border: 2px solid #72b626;
+    background-color: #72b626;
+    color: #fff;
+}
+
+.form-control:hover,
+.form-control:active {
+    border-color: rgba(114, 182, 38, 0.5);
+    box-shadow: 0px 0px 5px rgba(114, 182, 38, 0.3);
+}
+
+.skills .skill-item .progress {
+    border: 1px solid rgba(114, 182, 38, 0.3);
+}
